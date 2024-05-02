@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: rgb(1, 65, 65);
+    color: white;
+    padding: 3px 20px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 11px;
+    align-items: center;
+}
+/* header */
+header{
+    width: 100%;
+    background: linear-gradient(135deg,rgba(4, 4, 4, 0.534),rgb(18, 1, 24)), url(./Images/background.jpg);
+    text-align: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+    font-size: 5rem;
+    margin-bottom: 8px;
+}
+header h4{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+header div button{
+    background-color: transparent;
+    color: white;
+    padding: 8px 25px;
+    border: 1px solid white;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+header div button:hover{
+    color: black;
+    background-color: white;
+}
+/* work */
+.parent{
+    background-color: rgb(35, 35, 35);
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
